@@ -1,0 +1,8 @@
+# Code to generate random numbers by throwing dice in Python #
+
+import random
+
+random_roll= int(input("Hello,\n please enter the number of dice rolls."))
+
+for roll in range(random_roll):
+  print( random.randrange(1,7), end=' ')
